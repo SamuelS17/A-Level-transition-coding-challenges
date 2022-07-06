@@ -5,8 +5,9 @@ for i in range(4):
     digits2 = digits
 sequence = ""
 '''
-#I gave up
-num1,num2,num3,num4 = (input("Enter the 4 digits: ")).split()
+#I gave up so i did this
+num1,num2,num3,num4 = (input("Enter the 4 digits (leave a space bar between each digit): ")).split()
+print("Here are all the possible combinations:")
 print(num1+num2+num3+num4)
 print(num1+num2+num4+num3)
 print(num1+num3+num2+num4)
@@ -31,7 +32,7 @@ print(num4+num2+num1+num3)
 print(num4+num2+num3+num1)
 print(num4+num3+num1+num2)
 print(num4+num3+num2+num1)
-
+#it still works
 
 
 
