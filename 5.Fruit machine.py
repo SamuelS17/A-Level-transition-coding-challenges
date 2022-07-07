@@ -4,9 +4,9 @@ symbols = ["Cherry", "Bell", "Lemon", "Orange", "Star", "Skull"]
 credits = 1.0
 stop = False
 print ("The Rules: \nYou start with £1.00 and every spin costs 20p\nIf you get 2 of the same symbol you win 50p\nIf you get 3 of the same symbol you get £1/nIf you get 3 bells you get £5\nHowever if you get 2 skulls you lose £1\nIf you get 3 skulls you lose all your money\n")
-f = open("Highscore.txt","r")
+'''f = open("Highscore.txt","r")
 print("The current highscore is £"+f.read()+"0")
-f.close()
+f.close()'''
 print("Bank: £"+str(credits)+"0")
 while not stop and credits>= 0.20:
     input("Click enter to spin")
@@ -49,11 +49,11 @@ while not stop and credits>= 0.20:
             stop = True
 
 print("You finished with £"+str(round(credits,2))+"0")
-#self-extension
-f=open("Highscore.txt", "r+")
+#self-extension - i don't know why it wasn't working
+'''f=open("Highscore.txt", "r+")
 current_highscore = f.read()
 print(current_highscore)
 if float(current_highscore)<credits:
     f.write(str(credits))
     print("You got a new highscore - congratulations!")
-f.close()
+f.close()'''
