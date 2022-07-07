@@ -49,6 +49,7 @@ while not stop and credits>= 0.20:
             stop = True
 
 print("You finished with £"+str(round(credits,2))+"0")
+
 #self-extension - i don't know why it wasn't working
 '''f=open("Highscore.txt", "r+")
 current_highscore = f.read()

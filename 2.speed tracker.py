@@ -4,7 +4,7 @@ distance = 1
 time = time/60
 speed = round(distance/time, 2)
 print("The car is travelling at", str(speed)+"mph")
-
+#i completely made up this extension
 f = open("speeding_cars.txt", "a")
 if speed >70:
     f.write(num_plate)
